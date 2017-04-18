@@ -1,12 +1,14 @@
 body {
   font-family: sans-serif;
-  margin: 0 auto;
   font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
   background-color: #DEDCD8;
 }
 
 ul {
 	background: #FFC300;
+	text-align: left;
 }
 
 li {
@@ -18,7 +20,7 @@ li {
 a {
 	color: whitesmoke;
 	text-decoration: none;
-	padding: 5px;
+	padding: 20px;
 }
 
 .box-Im {
@@ -26,10 +28,14 @@ a {
 }
 
 .box-Im img {
+	width: 270px;
+	height: 200px;
 	border: 2px solid whitesmoke;
-	margin: 5px;
-	width: 170px;
-	height: 110px;
+	box-sizing: border-box;
+}
+
+#botones {
+	text-align: center;
 }
 
 .submenu {
@@ -37,12 +43,14 @@ a {
 	background: #FFC300;
 	color: whitesmoke;
 	padding: 5px;
-	width: 200px;
+	width: 300px;
 }
+
 
 p {
 	display: inline-block;
-	color: whitesmoke;
+	text-align: justify; 
 	padding: 10px;
-	width: 300px;
+	width: 400px;
+	box-sizing: border-box;
 }
