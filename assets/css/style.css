@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: #DEDCD8;
+}
+
+ul {
+	background: #FFC300;
+}
+
+li {
+	display: inline-block;
+	padding: 20px;
+	list-style: none;
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.box-Im {
+	display: inline-block;
+}
+
+.box-Im img {
+	border: 2px solid whitesmoke;
+	margin: 5px;
+	width: 170px;
+	height: 110px;
+}
+
+.submenu {
+	display: inline-block;
+	background: #FFC300;
+	color: whitesmoke;
+	padding: 5px;
+	width: 200px;
+}
+
+p {
+	display: inline-block;
+	color: whitesmoke;
+	padding: 10px;
+	width: 300px;
+}
