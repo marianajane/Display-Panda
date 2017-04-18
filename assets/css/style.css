@@ -8,13 +8,14 @@ body {
 
 ul {
 	background: #FFC300;
-	text-align: left;
+	text-align: center;
 }
 
 li {
 	display: inline-block;
 	padding: 20px;
 	list-style: none;
+	overflow: auto;
 }
 
 a {
@@ -25,13 +26,28 @@ a {
 
 .box-Im {
 	display: inline-block;
-}
-
-.box-Im img {
+	position: relative;
 	width: 270px;
 	height: 200px;
 	border: 2px solid whitesmoke;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-sizing: border-box;
+}
+
+#img1 {
+	background-image: url("../img/panda1.jpg");
+}
+
+#img2 {
+	background-image: url("../img/panda2.jpg");
+}
+
+#img3 {
+	background-image: url("../img/panda3.jpg");
+}
+
+#img4 {
+	background-image: url("../img/panda4.jpg");
 }
 
 #botones {
@@ -41,9 +57,10 @@ a {
 .submenu {
 	display: inline-block;
 	background: #FFC300;
-	color: whitesmoke;
+	text-decoration: underline;
+	width: 350px;
 	padding: 5px;
-	width: 300px;
+	margin: 5px;
 }
 
 
@@ -51,6 +68,16 @@ p {
 	display: inline-block;
 	text-align: justify; 
 	padding: 10px;
-	width: 400px;
+	width: 550px;
 	box-sizing: border-box;
+}
+
+.cerrar {
+	position: relative;
+    width: 25px;
+    height: 25px;
+    text-align: right;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
 }
